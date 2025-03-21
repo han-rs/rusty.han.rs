@@ -1,24 +1,23 @@
 [book]
-authors = ["sunface"]
+authors = ["sunface", "Hantong Chen"]
 language = "zh-CN"
-title = "Rusty Book(锈书)"
-src = "src"
+multilingual = true
+title = "Rusty Book (锈书)"
+
+[rust]
+edition = "2024"
 
 [output.html]
-no-section-label = true
-additional-css = ["theme/style1.css"]
-additional-js = ["assets/custom1.js", "assets/bigPicture.js"]
-git-repository-url = "https://github.com/studyrs/rusty-book"
-edit-url-template = "https://github.com/studyrs/rusty-book/edit/main/{path}"
+git-repository-url = "https://github.com/han-rs/rusty.han.rs"
+edit-url-template = "https://github.com/han-rs/rusty.han.rs/edit/main/{path}"
+additional-js = ["./theme/giscus.js"]
+smart-punctuation = true
+mathjax-support = true
+hash-files = true
 
 [output.html.playground]
 editable = true
+copyable = true
 copy-js = true
-# line-numbers = true
-
-[output.html.fold]
-enable = true
-level = 1
-
-[rust]
-edition = "2021"   #在线运行用2021版本的
+line-numbers = true
+runnable = true

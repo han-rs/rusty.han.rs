@@ -1,4 +1,4 @@
-<img width="100%" src="https://github.com/studyrs/rusty-book/blob/main/assets/banner.gif?raw=true" />
+<img width="100%" src="./assets/banner.gif" />
 
 每个同学可能都遇到过以下疑惑:
 
@@ -13,6 +13,7 @@
 而本书，就是精选了各种开源库和代码片段，帮助大家打造优"锈"的 Rust 项目。
 
 ## 以往的锈
+
 以往，想要锈起来，你需要做到以下两步:
 
 1. 为项目挑选 Awesome 依赖库
@@ -24,11 +25,13 @@
 但目前的 Rust Cookbook 更新非常不活跃，里面缺少了大量实用库，还有一些过时的老库。
 
 ## 现在的锈
+
 鉴于以上痛点，我们决定打造一本真正的锈书：一本足够"锈"但是又不会锈的书。
 
 这本书其实就是 Awesome Rust  + Rust Cookbook 的结合体，但是我们不是简单粗暴的对内容进行了合并，而是从深层次将两者进行了融合，希望大家能喜欢。
 
 ## 这本书的读者
+
 本书适合所有程度的 Rust 开发者使用:
 
 - 新手用来了解 Rust 的常用库和常用代码片段
